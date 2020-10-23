@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Form</title>
+</head>
+<style>
+	textarea {
+		resize: none;
+	}
+</style>
+<body>
+	<p><font color="gree" size="100"><b>Form Biodata </b></font></p>
+	<hr>
+
+	<table>
+		<form method="post" action="#">
+			<thead>
+				<tr>
+					<th></th>
+					<th></th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td><label>Nim</label></td>
+					<td>:</td>
+					<td><input type="text" name="txtnim" size="20" maxlength="10" placeholder="Masukkan Nim Anda"></td>
+				</tr>
+				<tr>
+					<td><label>Nama</label></td>
+					<td>:</td>
+					<td><input type="text" name="txtnama" placeholder="Masukkan Nama Anda"></td>
+				</tr>
+				<tr>
+					<td><label for="">Jenis Kelamin</label></td></td>
+					<td>:</td>
+					<td><input type="radio" value="L" name="rdjk"> Laki - Laki
+						<input type="radio" value="p" name="rdjk"> Perempuan</td>
+					</tr>
+					<tr>
+						<td><label for="">Jurusan</label></td>
+						<td>:</td>
+						<td><select name="optjurusan" id="">
+							<option value="d3ti">--PILIH--</option>
+							<option value="d3ti">D3 TI</option>
+							<option value="d3mi">D3 MI</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><label>Hobby</label></td>
+						<td>:</td>
+						<td><input type="checkbox" name="ckhobi">Komputer
+							<input type="checkbox" name="ckhobi">Musik
+							<input type="checkbox" name="ckhobi">Olahraga
+							<input type="checkbox" name="ckhobi">Travelling</td>
+						</tr>
+						<tr>
+							<td><label>Catatan</label></td>
+							<td>:</td>
+							<td><textarea name="txtcatatan" cols="45" rows="5"></textarea></td>
+						</tr>
+						<tr>
+							<td><label>Foto</label></td>
+							<td>:</td>
+							<td><input type="file" name="foto" accept=".jpeg,.jpg,.png"></td>
+						</tr>
+						<tr>
+							<td><label>Email</label></td>
+							<td>:</td>
+							<td><input type="Email" name="txtemail" placeholder="Masukkan Email Anda"></td>
+						</tr>
+						<tr>
+							<td><label>Password</label></td>
+							<td>:</td>
+							<td><input type="Password" name="txtemail" placeholder="Masukkan Password Anda"></td>
+						</tr>
+						<tr>
+							<td><label>Ulangi Password</label></td>
+							<td>:</td>
+							<td><input type="Password" name="txtemail" placeholder="Masukkan Ulang Password Anda"></td><br>
+							
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td><input type="button" name="bsimpan" value="Simpan">
+								<input type="button" name="bbatal" value="Batal">
+								<input type="button" name="bperingatan" value="Peringatan"></td>
+							</tr>	
+						</tbody>
+					</form>	
+				</table>
+
+			</body>
+			</html>
